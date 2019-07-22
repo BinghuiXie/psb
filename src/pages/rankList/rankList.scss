@@ -1,0 +1,150 @@
+.rank-list {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  color: #aec7e9;
+  background: #14296a;
+
+  .tab-bar {
+    display: flex;
+    padding: 0 112px;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(205, 220, 239, 0.5);
+    .tab {
+      width: 156px;
+      height: 50px;
+      font-size: 36px;
+      line-height: 50px;
+      color: #bbe0fe;
+      text-align: center;
+      border-radius: 8px;
+      &.active {
+        color: #122560;
+        background: #c9d9ef;
+      }
+    }
+  }
+
+  .list {
+    padding: 0 50px 240px 50px;
+    .rank-item {
+      display: flex;
+      padding: 38px 20px 38px 0;
+      align-items: center;
+      border-bottom: 1px solid rgba(76, 106, 201, 0.5);
+      .ranking {
+        width: 124px;
+        font-size: 30px;
+        text-align: center;
+        &.rank-0,
+        &.rank-1,
+        &.rank-2 {
+          font-size: 46px;
+        }
+        &.rank-0 {
+          color: #d3a505;
+        }
+        &.rank-1 {
+          color: #a6a08b;
+        }
+        &.rank-2 {
+          color: #7a651d;
+        }
+      }
+      .avatar {
+        width: 86px;
+        height: 86px;
+        border-radius: 50%;
+      }
+      .info {
+        margin-left: 36px;
+        width: 260px;
+        .name {
+          font-size: 36px;
+        }
+        .school {
+          font-size: 24px;
+        }
+        .big-text {
+          font-size: 36px;
+        }
+        .small-text {
+          font-size: 24px;
+        }
+      }
+      .score-wrapper {
+        margin-left: auto;
+        font-size: 30px;
+        text-align: right;
+      }
+    }
+  }
+
+  .personal-info {
+    display: flex;
+    position: fixed;
+    padding: 0 50px;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 156px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(76, 106, 201, 0.8);
+    background: #14296a;
+    .rank-item {
+      display: flex;
+      padding: 38px 20px 38px 0;
+      width: 100%;
+      align-items: center;
+      .ranking {
+        width: 124px;
+        font-size: 30px;
+        text-align: center;
+        &.rank-0,
+        &.rank-1,
+        &.rank-2 {
+          font-size: 46px;
+        }
+        &.rank-0 {
+          color: #d3a505;
+        }
+        &.rank-1 {
+          color: #a6a08b;
+        }
+        &.rank-2 {
+          color: #7a651d;
+        }
+      }
+      .avatar {
+        width: 86px;
+        height: 86px;
+        border-radius: 50%;
+      }
+      .info {
+        margin-left: 36px;
+        width: 260px;
+        .name {
+          font-size: 36px;
+        }
+        .school {
+          font-size: 24px;
+        }
+        .big-text {
+          font-size: 36px;
+        }
+        .small-text {
+          font-size: 24px;
+        }
+      }
+      .score-wrapper {
+        margin-left: auto;
+        font-size: 30px;
+        text-align: right;
+      }
+    }
+  }
+}

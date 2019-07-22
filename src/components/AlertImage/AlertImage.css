@@ -1,0 +1,46 @@
+.alert-image-box {
+  position: absolute;
+  z-index: 55;
+  height: 100vh;
+  width: 750rpx;
+  background-color: rgba(0, 0, 0, 0.2); }
+  .alert-image-box .content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 400rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .alert-image-box .content-container .content-inner-container .closeHeader {
+      text-align: right; }
+      .alert-image-box .content-container .content-inner-container .closeHeader .closeComponent {
+        width: 60px;
+        height: 60px;
+        margin-top: -25px;
+        margin-bottom: 12px;
+        opacity: 0;
+        animation: .14s opacity2one .65s ease-in-out;
+        animation-fill-mode: forwards; }
+    .alert-image-box .content-container .content-inner-container .model-content {
+      width: 100%;
+      transform: scale(0);
+      animation: .44s scale2one .35s ease-in-out;
+      animation-fill-mode: forwards;
+      border-radius: 3rpx; }
+
+@keyframes scale2one {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+@keyframes opacity2one {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=AlertImage.css.map */

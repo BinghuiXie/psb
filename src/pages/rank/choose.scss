@@ -1,0 +1,44 @@
+.challenge-index {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: #14296a;
+
+  // banner
+  .banner-wrapper {
+    width: 100vw;
+    text-align: center;
+    .banner-image {
+      width: 642px;
+      height: 142px;
+    }
+  }
+
+  // slogan
+  .slogan {
+    font-size: 40px;
+    color: #e5665c;
+    letter-spacing: 16px;
+    &.first {
+      margin-top: 15px;
+    }
+  }
+
+  //text
+  .choose-text {
+    font-size: 30px;
+    color: #d3f0ff;
+    margin-top: 43px
+  }
+
+  .modal {
+    width: 301px;
+    line-height: 71px;
+    background-color: #e5665c;
+    border-radius: 8px;
+    margin-top: 60px;
+  }
+}

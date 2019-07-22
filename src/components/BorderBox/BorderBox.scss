@@ -1,0 +1,6 @@
+@import '../../style/mixins';
+
+
+.border-box {
+  @include border-box();
+}

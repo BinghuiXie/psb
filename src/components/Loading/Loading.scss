@@ -1,0 +1,108 @@
+.loading {
+  padding-top: 120px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: #14296a;
+  @keyframes spin {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  .round {
+    border-radius: 100%;
+    padding: 50px;
+    position: absolute;
+    left: 50%;
+    box-sizing: border-box;
+  }
+  .round_1 {
+    width: 510px;
+    height: 510px;
+    background-color: #e5665c;
+    opacity: 0.14;
+    transform: translate(-50%, 50px);
+  }
+  .round_2 {
+    width: 410px;
+    height: 410px;
+    background-color: #e5665c;
+    opacity: 0.14;
+    transform: translate(-50%, 100px);
+  }
+  .round_3 {
+    width: 310px;
+    height: 310px;
+    // border: solid 2px #c9d9ef;
+    transform: translate(-50%, 150px);
+  }
+  .round_4 {
+    width: 210px;
+    height: 210px;
+    // border: solid 2px #c9d9ef;
+    transform: translate(-50%, 200px);
+  }
+  .round_5 {
+    width: 110px;
+    height: 110px;
+    transform: translate(-50%, 250px);
+  }
+  .avatar-wrapper {
+    box-sizing: border-box;
+    // border: 2px solid #c9d9ef;
+    border-radius: 50%;
+    // background: rgba(51, 89, 148, 0.9);
+    .avatar-image {
+      width: 110px;
+      height: 108px;
+      border-radius: 50%;
+      overflow: hidden;
+      transform: translate(-50px, -50px);
+    }
+  }
+  .ball_3 {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    width: 498px;
+    height: 498px;
+    top: -96px;
+    left: -96px;
+  }
+  .ball_4 {
+    position: absolute;
+    animation: spin 2s infinite linear;
+    top: -148px;
+    left: -148px;
+    width: 500px;
+    height: 500px;
+  }
+  .waiting_text {
+    width: fit-content;
+    font-size: 36px;
+    color: #e5665c;
+    margin: 600px auto;
+  }
+  .footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 30px 28px 30px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #14296a;
+    .line {
+      flex: 1;
+      height: 2px;
+      background: #ffffff;
+    }
+    .text {
+      margin: 0 8px;
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+}

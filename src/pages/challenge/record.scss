@@ -1,0 +1,90 @@
+.challenge-record {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: #14296a;
+
+  // banner
+  .banner-wrapper {
+    width: 100vw;
+    text-align: center;
+    .banner-image {
+      width: 642px;
+      height: 142px;
+    }
+  }
+
+  // 挑战记录
+  .record-list {
+    width: 100%;
+    padding: 0 54px 100px 54px;
+    box-sizing: border-box;
+
+    .record {
+      display: flex;
+      width: 100%;
+      height: 120px;
+      font-size: 30px;
+      color: #a4dfff;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(76, 106, 201, 0.5);
+
+      .triangle {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 16px solid transparent;
+        border-bottom: 16px solid transparent;
+      }
+
+      // 留言
+      .remark-wrapper {
+        .left-triangle {
+          vertical-align: 4px;
+          border-right: 16px solid #a4dfff;
+        }
+        .remark {
+          display: inline-block;
+          margin-left: 16px;
+          width: 410px;
+          max-height: 40px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      }
+
+      // deadline
+      .deadline-wrapper {
+        .deadline {
+          display: inline-block;
+        }
+        .right-triangle {
+          margin-left: 16px;
+          vertical-align: -4px;
+          border-left: 16px solid #a4dfff;
+        }
+      }
+
+      &.active {
+        color: #e5665d;
+
+        .remark-wrapper {
+          .left-triangle {
+            border-right: 16px solid #e5665d;
+          }
+        }
+
+        .deadline-wrapper {
+          .right-triangle {
+            border-left: 16px solid #e5665d;
+          }
+        }
+      }
+    }
+  }
+}

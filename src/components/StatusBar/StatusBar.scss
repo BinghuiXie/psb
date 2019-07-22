@@ -1,0 +1,85 @@
+$blue-color: #d1efff;
+$text-color: #d3f0ff;
+
+.status-bar {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+
+  // 倒计时
+  .count-down {
+    display: flex;
+    position: relative;
+    margin-top: 14px;
+    width: 128px;
+    height: 128px;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: $blue-color;
+
+    .time {
+      display: flex;
+      font-size: 72px;
+      color: #14296a;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .radial-timer {
+      // CONFIG
+      $size: 112px;
+      $thickness: 8px;
+      $duration: 15s;
+      $color: #e27b74;
+
+      width: $size;
+      height: $size;
+      border: $thickness solid $color;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+  }
+
+  .decoration {
+    position: absolute;
+    top: 36rpx;
+    // left: calc((100vw - 530px) / 2);
+    .decoration-image {
+      width: 530px;
+      height: 86px;
+    }
+  }
+
+  .avatar-wrapper {
+    display: flex;
+    position: absolute;
+    top: 22px;
+    width: 90vw;
+    justify-content: space-between;
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border: 4px solid #e27b74;
+      border-radius: 50%;
+    }
+  }
+
+  .name-wrapper {
+    display: flex;
+    position: absolute;
+    top: 52px;
+    width: 60vw;
+    justify-content: space-between;
+    .name {
+      width: 150px;
+      font-size: 36px;
+      color: $text-color;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.bind-info {
+  position: relative;
+  background: #14296a;
+
+  // 背景图
+  .background-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 365px;
+  }
+
+  .container {
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // 标题
+  .title {
+    font-size: 72px;
+    font-weight: bold;
+    color: #c8d6ea;
+    text-align: center;
+    &.red-text {
+      color: #e5665d;
+    }
+    &:first-of-type {
+      padding-top: 38px;
+    }
+  }
+
+  // 表单
+  .input-wrapper {
+    .input {
+      padding: 0 30px;
+      width: 580px;
+      height: 94px;
+      font-size: 40px;
+      line-height: 94px;
+      border-radius: 8px;
+      background: #c9d7ea;
+      .default {
+        color: #6c7ca3;
+      }
+    }
+    .select {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &.ellipsis {
+        .text {
+          width: 580px;
+          max-height: 94px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      }
+      .triangle {
+        width: 0;
+        height: 0;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-top: 16px solid #6c88b0;
+      }
+    }
+    .input-placeholder {
+      font-size: 40px;
+      line-height: 94px;
+      color: #6c7ca3;
+    }
+    &:first-of-type {
+      margin-top: 48px;
+    }
+    &:not(:first-of-type) {
+      margin-top: 26px;
+    }
+  }
+
+  // 绑定须知文字
+  .know-before {
+    position: relative;
+    margin-top: 34px;
+    width: 504px;
+    font-size: 24px;
+    color: #c9d7ea;
+    z-index: 1;
+  }
+
+  // 确认按钮
+  .button {
+    width: 470px;
+    height: 90px;
+    font-size: 54px;
+    line-height: 90px;
+    color: #540000;
+    border-radius: 8px;
+  }
+
+  .confirm-button {
+    margin-top: 48px;
+    background-color: #e5665d;
+  }
+}

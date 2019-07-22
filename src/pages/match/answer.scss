@@ -1,0 +1,47 @@
+.challenge-index {
+  display: flex;
+  position: relative;
+  padding-bottom: 100px;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: #14296a;
+
+  // banner
+  .banner-wrapper {
+    width: 100vw;
+    text-align: center;
+    .banner-image {
+      width: 642px;
+      height: 142px;
+    }
+  }
+
+  .main {
+    width: 650px;
+    height: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid #ffffff;
+    .question {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      color: #e5665d;
+      font-size: 30px;
+    }
+    .answer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 30px;
+      color: #a4dfff;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

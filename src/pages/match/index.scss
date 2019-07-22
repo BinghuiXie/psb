@@ -1,0 +1,136 @@
+.specialList {
+  padding: 20px 54px 0 54px;
+  height: 100vh;
+  background: #14296a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .logo {
+    width: 642px;
+    height: 142px;
+  }
+  .name {
+    width: fit-content;
+    align-self: flex-start;
+    font-size: 30px;
+    color: #d3f0ff;
+    margin: 20px 0 0 0;
+  }
+  .circle {
+    width: 180px;
+    height: 180px;
+    background-color: #d1efff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 94px auto 0;
+    .score {
+      color: #e5665c;
+      font-size: 72px;
+      font-weight: 500;
+    }
+    .text {
+      font-size: 26px;
+      color: #14296a;
+    }
+  }
+  .join {
+    width: 301px;
+    line-height: 71px;
+    background-color: #e5665c;
+    border-radius: 8px;
+    margin: 120px auto 0;
+    text-align: center;
+  }
+  .history {
+    width: 301px;
+    line-height: 71px;
+    border-radius: 8px;
+    border: solid 1px #e5665c;
+    color: #e5665c;
+    margin: 33px auto 0;
+    text-align: center;
+  }
+  .notic {
+    width: fit-content;
+    font-size: 24px;
+    color: #d1efff;
+    margin: 91px auto 0;
+  }
+  .more {
+    width: 46px;
+    line-height: 46px;
+    border: solid 1px #d3f0ff;
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 49px auto 0;
+    text-align: center;
+  }
+  .container {
+    position: fixed;
+    top: 200px;
+    left: 75px;
+    width: 600px;
+    height: auto;
+    padding: 83px 0 76px 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url("https://static.airbob.org/psb/2x/%E5%BC%B9%E5%87%BA%E6%A1%862@2x.png");
+    .item {
+      width: 380px;
+      font-size: 35px;
+      line-height: 48px;
+      color: #3563a1;
+      margin: 10px auto;
+    }
+    .sure {
+      width: 408px;
+      line-height: 79px;
+      text-align: center;
+      background-color: #e5665d;
+      border-radius: 8px;
+      margin: 80px auto;
+      font-size: 46px;
+      color: #540000;
+    }
+  }
+  .password {
+    margin: 44px 54px 0 54px;
+    padding: 0 34px;
+    height: 100px;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    color: #d3f0ff;
+    letter-spacing: 100px;
+    border: 1px solid #a4dfff;
+    background: #1b337c;
+  }
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 30px 28px 30px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background: #14296a;
+  .line {
+    flex: 1;
+    height: 2px;
+    background: #ffffff;
+  }
+  .text {
+    margin: 0 8px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+}

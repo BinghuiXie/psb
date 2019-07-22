@@ -1,0 +1,317 @@
+$blue-color: #d1efff;
+$text-color: #d3f0ff;
+
+.match-exercise {
+  display: flex;
+  position: relative;
+  padding-bottom: 100px;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: #14296a;
+
+  // banner
+  .banner-wrapper {
+    width: 100vw;
+    text-align: center;
+    .banner-image {
+      width: 642px;
+      height: 142px;
+    }
+  }
+
+  // 倒计时
+  .count-down {
+    display: flex;
+    margin-top: 14px;
+    width: 128px;
+    height: 128px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: $blue-color;
+
+    .time {
+      display: flex;
+      font-size: 72px;
+      color: #14296a;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .radial-timer {
+      // CONFIG
+      $size: 112px;
+      $thickness: 8px;
+      $duration: 15s;
+      $color: #e27b74;
+
+      width: $size;
+      height: $size;
+      border: $thickness solid $color;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+  }
+
+  // 完成度指示
+  .completed-question {
+    margin-top: 24px;
+    font-size: 36px;
+    color: $text-color;
+    .large {
+      font-size: 60px;
+    }
+  }
+
+  // 题目
+  .question-title {
+    margin-top: 28px;
+    width: 490px;
+    font-size: 36px;
+    color: $text-color;
+  }
+
+  // 选项
+  .question-options {
+    margin-top: 28px;
+    .option {
+      display: flex;
+      margin-bottom: 14px;
+      padding: 12px 22px 12px 22px;
+      width: 490px;
+      font-size: 32px;
+      color: $text-color;
+      line-height: 48px;
+      text-align: left;
+      border-radius: 8px;
+      border: 1px solid #a4dfff;
+      align-items: center;
+      background: rgba(0, 0, 0, 0);
+      &.selected {
+        border: 1px solid #24b4b4;
+        background: rgba(95, 111, 158, 0.8);
+        &.wrong {
+          .icon-wrong {
+            display: block;
+            width: 50px;
+            height: 50px;
+          }
+        }
+        &.correct {
+          .icon-right {
+            display: block;
+            width: 67px;
+            height: 50px;
+          }
+        }
+      }
+      &.wrong {
+        color: #14296a;
+        border: none;
+        background: #f69690;
+      }
+      &.correct {
+        color: #14296a;
+        border: none;
+        background: #88ea88;
+      }
+      .icon {
+        display: none;
+        margin-left: 30px;
+      }
+      .text {
+        flex: 1;
+      }
+    }
+  }
+
+  .button-wrapper {
+    margin-top: 40px;
+    .button {
+      display: flex;
+      width: 258px;
+      height: 66px;
+      font-size: 32px;
+      color: #e27b74;
+      justify-content: center;
+      align-items: center;
+      border: 4px solid #e27b74;
+      border-radius: 8px;
+      background: rgba(0, 0, 0, 0);
+    }
+  }
+
+  .add-score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .coin {
+      margin: 0 10px;
+      width: 26px;
+      height: 26px;
+    }
+    .add-text {
+      font-size: 30px;
+      color: #d3f0ff;
+    }
+  }
+
+  .look-answer {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #a4dfff;
+  }
+
+  .left-score-bar {
+    position: absolute;
+    top: 380px;
+    left: 40px;
+  }
+
+  .right-score-bar {
+    position: absolute;
+    top: 380px;
+    right: 40px;
+  }
+
+  // 页脚
+  .footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 30px 28px 30px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #14296a;
+    .line {
+      flex: 1;
+      height: 2px;
+      background: $blue-color;
+    }
+    .text {
+      margin: 0 8px;
+      font-size: 20px;
+      color: $text-color;
+    }
+  }
+
+  .complete-window {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    .container {
+      display: flex;
+      padding-top: 38px;
+      width: 600px;
+      height: 804px;
+      color: #3563a1;
+      border-radius: 8px;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      background-size: cover;
+      background-image: url("https://fzlm.njupt.edu.cn/police/image/2x/%E5%BC%B9%E5%87%BA%E6%A1%862@2x.png");
+      .game-text {
+        font-size: 40px;
+        width: 450px;
+        align-content: center;
+      }
+      .score {
+        font-size: 100px;
+        font-weight: bold;
+        line-height: 100px;
+      }
+      .text {
+        font-size: 36px;
+        text-shadow: 0 0 8px #d1efff;
+      }
+      .score-desc {
+        margin-bottom: 60px;
+      }
+
+      .button {
+        display: flex;
+        margin-top: 124px;
+        width: 408px;
+        height: 80px;
+        font-size: 46px;
+        color: #000;
+        justify-content: center;
+        align-items: center;
+        background: #e5665d;
+      }
+
+      .look-answer {
+        font-size: 30px;
+        color: #a4dfff;
+        margin-top: 20px;
+      }
+
+      .answer-type {
+        width: 226px;
+        height: 171px;
+      }
+      .game-step {
+        font-size: 36px;
+        color: #3563a1;
+      }
+      .game-info {
+        width: 380px;
+        height: 210px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        .user-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          height: 100%;
+          width: 100px;
+          color: #3563a1;
+          .name {
+            font-size: 30px;
+          }
+          .score {
+            font-size: 60px;
+          }
+          .avatar-wrapper {
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border: 6px solid rgba(51, 89, 148, 0.9);
+            border-radius: 50%;
+            background: rgba(51, 89, 148, 0.9);
+            .avatar-image {
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+              overflow: hidden;
+            }
+          }
+        }
+        .vs {
+          width: 74px;
+          height: 51px;
+          margin-top: 27px;
+        }
+      }
+    }
+  }
+}

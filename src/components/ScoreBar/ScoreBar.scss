@@ -1,0 +1,28 @@
+.score-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .score {
+    font-size: 36px;
+  }
+
+  .score-column {
+    $border-color: #d1efff;
+
+    display: flex;
+    margin-top: 30px;
+    width: 28px;
+    height: 540px;
+    box-shadow: inset 0 0 6px $border-color;
+    border-radius: 14px;
+    border: 1px solid $border-color;
+    align-items: flex-end;
+    overflow: hidden;
+
+    .color-column {
+      width: 100%;
+      animation: all 1s ease-in-out;
+    }
+  }
+}

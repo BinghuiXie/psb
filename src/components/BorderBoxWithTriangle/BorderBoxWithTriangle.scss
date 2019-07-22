@@ -1,0 +1,31 @@
+@import '../../style/mixins';
+
+.outer-border-box {
+  padding: 8px 12px 12px 8px;
+}
+
+.border-box {
+  @include border-box();
+  padding: 8rpx 12rpx 12rpx 8rpx;
+}
+
+
+.border-box-with-triangle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #a4dfff;
+  // background-image: linear-gradient(0deg, rgba(29, 91, 194, 0.11) 0%,
+  background-image: linear-gradient(0deg, rgba(89, 167, 255, 0.3) 0%,
+  rgba(35, 61, 129, 0.9) 51%,
+  rgba(89, 167, 255, 0.5) 100%);
+  .triangle {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #a4dfff;
+    border-left: 22px solid transparent;
+  }
+}

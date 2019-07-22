@@ -1,0 +1,43 @@
+.red-pocket-index {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: #14296a;
+
+  // banner
+  .banner-wrapper {
+    width: 100vw;
+    text-align: center;
+    .banner-image {
+      width: 642px;
+      height: 142px;
+    }
+  }
+
+  // slogan
+  .slogan {
+    font-size: 40px;
+    color: #e5665c;
+    &.number {
+      font-size: 60px;
+    }
+    &.first {
+      margin-top: 15px;
+    }
+  }
+
+  .button {
+    display: flex;
+    margin-top: 50px;
+    width: 300px;
+    height: 70px;
+    color: #540000;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #e5665d;
+  }
+}

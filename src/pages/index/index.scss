@@ -1,0 +1,327 @@
+$background-color: #14296a;
+$text-color: #a4dfff;
+$border-color: rgba(164, 223, 255, 0.6);
+$blue-color: #d1efff;
+
+.index {
+  position: relative;
+  padding: 0 30px;
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: $background-color;
+  .info-outer-wrapper {
+    padding-top: 14px;
+    width: 100%;
+    height: 254px;
+    .info-inner-wrapper {
+      display: flex;
+      position: relative;
+      height: 100%;
+      color: $text-color;
+      box-sizing: border-box;
+      flex-direction: column;
+      .jin-hui-image {
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        top: 28px;
+        right: 30px;
+      }
+      .username-wrapper {
+        display: flex;
+        padding: 0 0 18px 220px;
+        width: 100%;
+        height: 132px;
+        align-items: flex-end;
+        box-sizing: border-box;
+        .username-text {
+          font-size: 36px;
+          line-height: 36px;
+        }
+      }
+      .other-info-wrapper {
+        display: flex;
+        position: relative;
+        flex: 1;
+        border: 1px solid $border-color;
+        border-radius: 0 0 8px 8px;
+        background: rgba(51, 89, 148, 0.9);
+        background-image: linear-gradient(
+          0deg,
+          rgba(29, 91, 194, 0.11) 0%,
+          rgba(0, 0, 0, 0) 51%,
+          rgba(89, 167, 255, 0.5) 100%
+        );
+        .avatar-wrapper {
+          position: absolute;
+          bottom: 26px;
+          width: 186px;
+          height: 186px;
+          box-sizing: border-box;
+          border: 6px solid rgba(51, 89, 148, 0.9);
+          border-radius: 50%;
+          background: rgba(51, 89, 148, 0.9);
+          .avatar-image {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+          }
+        }
+        .info-wrapper {
+          display: flex;
+          margin-left: 210px;
+          padding: 10px 18px 12px 0;
+          width: 100%;
+          justify-content: space-between;
+          box-sizing: border-box;
+          .title-and-score {
+            font-size: 24px;
+            line-height: 30px;
+          }
+          .season-and-date {
+            text-align: right;
+            align-self: flex-end;
+            .season {
+              font-size: 30px;
+            }
+            .date {
+              font-size: 18px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .fraud-case-wrapper {
+    margin-top: 26px;
+    .fraud-case {
+      height: 316px;
+      .container {
+        padding: 40px 66px 78px 58px;
+        width: 100%;
+        height: 100%;
+        color: #d2efff;
+        box-sizing: border-box;
+        background: url("https://fzlm.njupt.edu.cn/police/image/2x/%E9%A6%96%E9%A1%B50-%E6%94%B9@2x.png");
+        background-size: cover;
+        .title {
+          font-size: 36px;
+        }
+        .content {
+          margin-top: 18px;
+          width: 550px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  .rank-and-exam-wrapper {
+    display: flex;
+    margin-top: 18px;
+    padding-bottom: 120px;
+    justify-content: space-between;
+    .rank-wrapper {
+      width: 216px;
+      height: 638px;
+      .container {
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        .title {
+          font-size: 36px;
+          line-height: 60px;
+          color: #d2efff;
+        }
+        .full-list {
+          margin-bottom: 20px;
+          font-size: 20px;
+          line-height: 26px;
+          color: #a4dfff;
+        }
+        .ranking-item-wrapper {
+          margin-bottom: 20rpx;
+          padding: 20rpx 0;
+          flex: 1;
+          overflow: scroll;
+        }
+        .ranking-item {
+          display: flex;
+          position: relative;
+          margin-bottom: 16px;
+          padding: 4px;
+          width: 162px;
+          height: 70px;
+          color: #a4dfff;
+          border-radius: 60px;
+          box-sizing: border-box;
+          align-items: center;
+          background: #1c347e;
+          &.my {
+            margin: 20px 0 0 0;
+          }
+          .ranking {
+            display: flex;
+            position: absolute;
+            padding: 5px 10px 5px 10px;
+            top: -10px;
+            left: 22px;
+            z-index: 1;
+            font-size: 14px;
+            color: #fff;
+            border-radius: 24px;
+            justify-content: center;
+            align-items: center;
+            background: #4fd1d9;
+          }
+          .avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            overflow: hidden;
+            background: #24578f;
+            .avatar-image {
+              width: 64px;
+              height: 64px;
+              border-radius: 50%;
+            }
+          }
+          .info-wrapper {
+            padding: 0 6px;
+            flex: 1;
+            text-align: right;
+            .score {
+              font-size: 24px;
+            }
+          }
+        }
+        .line {
+          width: 154px;
+          border-bottom: 1px solid #a4dfff;
+        }
+      }
+    }
+    .box-list {
+      margin-left: 18px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .box,
+      .bar {
+        &.margin-top {
+          margin-top: 18px;
+        }
+      }
+      .box {
+        width: 220px;
+        height: 240px;
+      }
+      .bar {
+        width: 456px;
+        height: 122px;
+      }
+      .container {
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        .title {
+          font-size: 36px;
+          color: #d2efff;
+        }
+        .image-wrapper {
+          margin-top: 20px;
+          .image {
+            width: 122px;
+            height: 82px;
+          }
+        }
+      }
+      .guide {
+        display: flex;
+        padding-top: 0;
+        justify-content: center;
+        align-items: center;
+        .image {
+          margin-right: 30px;
+          width: 55px;
+          height: 54px;
+        }
+      }
+    }
+  }
+
+  // 页脚
+  .footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 28px 30px 28px 30px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #14296a;
+    .line {
+      flex: 1;
+      height: 2px;
+      background: $text-color;
+    }
+    .text {
+      margin: 0 8px;
+      font-size: 20px;
+      color: $text-color;
+    }
+  }
+
+  .authorization-window {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    .container {
+      display: flex;
+      padding-top: 56px;
+      width: 600px;
+      height: 544px;
+      border-radius: 8px;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      background-size: cover;
+      background-image: url("https://fzlm.njupt.edu.cn/police/image/2x/%E5%BC%B9%E5%87%BA%E6%A1%861@2x.png");
+      .title {
+        font-size: 118px;
+        color: #3563a1;
+        line-height: 120px;
+        text-shadow: 0 0 20px #d1efff;
+      }
+      .button {
+        display: flex;
+        margin-top: 110px;
+        width: 408px;
+        height: 80px;
+        font-size: 46px;
+        color: #000;
+        justify-content: center;
+        align-items: center;
+        background: #e5665d;
+      }
+    }
+  }
+}

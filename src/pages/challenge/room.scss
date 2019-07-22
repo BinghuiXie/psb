@@ -1,0 +1,135 @@
+.room {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: #14296a;
+
+  // 背景图
+  .background-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 365px;
+  }
+
+  // 顶部文字
+  .text {
+    font-size: 40px;
+    line-height: 60px;
+
+    &.red {
+      color: #e5665c;
+    }
+  }
+
+  .username {
+    margin-top: 32px;
+  }
+
+  // 标题
+  .title {
+    font-size: 30px;
+    color: #d3f0ff;
+  }
+  // 留言标题
+  .message-title {
+    margin-top: 36px;
+  }
+  // 留言
+  .message {
+    margin-top: 32px;
+    font-size: 24px;
+    color: #d3f0ff;
+    opacity: 0.5;
+  }
+
+  .ranking-wrapper {
+    width: 100vw;
+    padding: 0 76px;
+    box-sizing: border-box;
+    .ranking-title {
+      margin-top: 36px;
+      text-align: center;
+    }
+
+    .ranking-list {
+      margin-top: 36px;
+      padding: 0 30px 20px 30px;
+      color: #c9d9ef;
+      &.active {
+        border: 1px solid rgba(164, 223, 255, 0.5);
+        background: #1b337c;
+      }
+      .rank {
+        display: flex;
+        padding: 24px 0;
+        font-size: 36px;
+        border-bottom: 1px solid rgba(201, 217, 239, 0.3);
+        .rank-number {
+          width: 60px;
+          font-size: 48px;
+        }
+        .avatar {
+          width: 72px;
+          height: 72px;
+          border-radius: 50%;
+          border: 1px solid #c9d9ef;
+          box-sizing: border-box;
+        }
+        .username {
+          margin: 0 0 0 32px;
+          width: 260px;
+        }
+        .score {
+          margin-left: auto;
+          text-align: right;
+        }
+        .vertical-align-center {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+    // 开始答题
+    &.start-challenge-button {
+      margin-top: 76px;
+      width: 300px;
+      height: 70px;
+      font-size: 40px;
+      color: #520000;
+      border: none;
+      background: #e5665c;
+    }
+
+    // 分享房间
+    &.share-room-button {
+      margin-top: 32px;
+      width: 300px;
+      height: 70px;
+      font-size: 36px;
+      color: #e5665c;
+      border: 1px solid #e5665c;
+      background: none;
+    }
+  }
+
+  // 限时说明
+  .limited-time-desc {
+    margin-top: 32px;
+    font-size: 24px;
+    color: #e5665c;
+    text-align: center;
+  }
+}

@@ -1,0 +1,158 @@
+.challenge-index {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: #14296a;
+
+  // banner
+  .banner-wrapper {
+    width: 100vw;
+    text-align: center;
+    .banner-image {
+      width: 642px;
+      height: 142px;
+    }
+  }
+
+  // slogan
+  .slogan {
+    font-size: 40px;
+    color: #e5665c;
+    letter-spacing: 16px;
+    &.first {
+      margin-top: 15px;
+    }
+  }
+
+  // 留言
+  .message-title {
+    margin-top: 38px;
+    font-size: 30px;
+    color: #d3f0ff;
+  }
+
+  .message-board {
+    margin-top: 32px;
+    padding: 22px;
+    width: 70vw;
+    height: 176px;
+    font-size: 24px;
+    color: #d3f0ff;
+    border: 1px solid #a4dfff;
+    background: #1b337c;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+    // 生成房间
+    &.generate-room-button {
+      margin-top: 40px;
+      width: 300px;
+      height: 70px;
+      font-size: 40px;
+      color: #520000;
+      border: none;
+      background: #e5665c;
+    }
+
+    // 挑战记录
+    &.challenge-record-button {
+      margin-top: 32px;
+      width: 300px;
+      height: 70px;
+      font-size: 36px;
+      color: #e5665c;
+      border: 1px solid #e5665c;
+      background: none;
+    }
+  }
+
+  // 限时说明
+  .limited-time-desc {
+    margin-top: 32px;
+    font-size: 24px;
+    color: #e5665c;
+  }
+
+  // 更多描述
+  .more-desc-wrapper {
+    padding: 50px;
+    .more-desc {
+      display: flex;
+      width: 46px;
+      height: 46px;
+      font-size: 32px;
+      color: #d3f0ff;
+      font-weight: bold;
+      border-radius: 50%;
+      border: 1px solid #d3f0ff;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  // 更多描述的弹出框
+  .dialog-wrapper {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+
+    .desc-dialog {
+      position: relative;
+      width: 600px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-sizing: border-box;
+      background: #d1efff;
+
+      .background-image {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+        width: 100%;
+        height: 545px;
+      }
+
+      .text-wrapper {
+        margin-top: 80px;
+        max-height: 500px;
+        overflow-y: scroll;
+        .text {
+          position: relative;
+          z-index: 2;
+          padding: 0 100px;
+          font-size: 36px;
+          color: #3563a1;
+          text-shadow: 0 0 #d1efff 10px;
+        }
+      }
+
+      .confirm-button {
+        position: relative;
+        z-index: 2;
+        margin-top: 82px;
+        margin-bottom: 80px;
+        width: 408px;
+        height: 80px;
+        font-size: 46px;
+        letter-spacing: 20px;
+        color: #540000;
+        background: #e5665d;
+      }
+    }
+  }
+}

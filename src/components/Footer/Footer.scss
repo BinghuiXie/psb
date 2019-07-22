@@ -1,0 +1,26 @@
+$blue-color: #d1efff;
+$text-color: #d3f0ff;
+
+// 页脚
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 30px 28px 30px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  // background: #14296a;
+  .line {
+    flex: 1;
+    height: 2px;
+    background: $blue-color;
+  }
+  .text {
+    margin: 0 8px;
+    font-size: 20px;
+    color: $text-color;
+  }
+}
