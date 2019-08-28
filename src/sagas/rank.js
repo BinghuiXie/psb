@@ -214,7 +214,7 @@ export function* confirmChoiceSaga() {
       const { openId } = yield select(getUser);
       const {
         season: { id: seasonId }
-      } = yield select(getInfo);
+      } = yield select(getInfo); // seasonId = state.info.season.id
       const duration = DURATION;
       if (selectedChoices.sort().toString() === answers.sort().toString()) {
         yield put({ type: GAIN_SCORE, score: SCORE_GAIN_PER_QUESTION });

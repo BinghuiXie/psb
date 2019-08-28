@@ -2,103 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="726be61a-228c-47c4-914d-1ae936c58a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AlertImage/AlertImage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AlertImage/alertImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/match.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/rank.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/rank.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/match.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/rank.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/rank.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/guide/guide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/guide/guide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/answer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/answer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/answer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/answer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/exercise.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/exercise.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/history.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/history.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/match/tree.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/match/tree.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/news/detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/news/detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/match.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rank/rank.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rank/rank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sagas/rank.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/rank.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sagas/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/user.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/index/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/api/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>专题竞赛</find>
-      <find>NEW_INFO</find>
-      <find>seasonScore</find>
-      <find>exist</find>
-      <find>rank</find>
-      <find>console</find>
-      <find>existTimes</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/components/AlertImage/alertImage.js" />
-        <option value="$PROJECT_DIR$/src/pages/index/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/match/history.js" />
-        <option value="$PROJECT_DIR$/src/pages/match/index.js" />
-        <option value="$PROJECT_DIR$/src/reducers/rank.js" />
-      </list>
-    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -111,65 +29,23 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-60" />
-    <option name="y" value="185" />
-    <option name="width" value="994" />
-    <option name="height" value="539" />
-  </component>
+  <component name="ProjectId" id="1OP85vIN6zHG1OzzppWOPD13Y7e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="psb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="psb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="psb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="psb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="psb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="psb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="psb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="psb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="psb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="psb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -200,205 +76,33 @@
       <updated>1562475521884</updated>
       <workItem from="1562475524079" duration="3968000" />
       <workItem from="1563595229120" duration="665000" />
+      <workItem from="1563855529118" duration="52000" />
+      <workItem from="1563867693541" duration="385000" />
+      <workItem from="1563933826966" duration="10418000" />
+      <workItem from="1566614509157" duration="2278000" />
+      <workItem from="1566618746559" duration="312000" />
+      <workItem from="1566619077996" duration="57000" />
+      <workItem from="1566619151659" duration="60000" />
+      <workItem from="1566619229979" duration="11716000" />
+      <workItem from="1566796797240" duration="811000" />
+      <workItem from="1566977614696" duration="4175000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4633000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16903633" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1762">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/challenge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AlertImage/alertImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/guide/guide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/exercise/answer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sagas/match.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1794">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/match/history.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="67" lean-forward="true" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/match.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/exercise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <folding>
-            <element signature="e#0#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/rank.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/match/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

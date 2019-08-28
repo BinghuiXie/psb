@@ -28,7 +28,7 @@ import userSelector from "../select/user";
  * 登录流程
  * 1. 进页面
  *    b. 拿 wxCode
- *    a. 同时拿avatar 和 nickName，如果没有授权的话弹窗；之后都不用弹
+ *    a. 同时拿 avatar 和 nickName，如果没有授权的话弹窗；之后都不用弹
  * 2. 调用后端的 login 接口
  */
 export function* getWxCodeSaga() {
@@ -59,6 +59,12 @@ export function* getUserInfoSaga() {
       yield put({ type: GET_USER_INFO_SUCCEED, userInfo });
     } catch (e) {
       yield put({ type: GET_USER_INFO_FAILED, error: e });
+      yield put({ type: SHOW_AUTHORIZATION_WINDOW });
+      // const { authSetting } = yield call(Taro.getSetting,  { timeout: 5000 });
+      // if (authSetting && !authSetting["scope.userInfo"]) {
+      //   // 如果没有拿到用户信息，就弹窗授权
+      //   yield put({ type: SHOW_AUTHORIZATION_WINDOW });
+      // }
       if (e.errMsg.includes("unauthorized")) {
         yield put({ type: SHOW_AUTHORIZATION_WINDOW });
       }

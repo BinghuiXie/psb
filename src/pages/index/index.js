@@ -60,7 +60,6 @@ class Index extends Component {
   }
 
   navigateTo(url) {
-    // console.log('token: ', this.props.user.token);
     if (this.props.user.token) {
       Taro.navigateTo({ url });
     } else {

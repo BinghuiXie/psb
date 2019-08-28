@@ -107,6 +107,9 @@ class Rank extends Component {
   }
 
   render() {
+    console.log("------rank/rank.js------");
+    console.log("this.props: ", this.props);
+    console.log("this.props.rank: ", this.props.rank);
     const {
       countDown,
       questions,
@@ -116,10 +119,13 @@ class Rank extends Component {
       selectedChoices,
       scoreGain,
       confirmed,
-      onChangeChoice,
-      onConfirmChoice,
       opponentScore
     } = this.props.rank;
+    const {
+      onChangeChoice,
+      onConfirmChoice
+    } = this.props;
+    console.log("onConfirmChoice: ", onConfirmChoice);
     const { avatar, nickName, opponentInfo } = this.props.user;
     const { shouldShowOpponentInfo } = this.state;
 
